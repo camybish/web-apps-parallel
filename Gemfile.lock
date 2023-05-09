@@ -40,7 +40,6 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
