@@ -14,6 +14,6 @@ gem "rack-test", "~> 1.1"
 
 gem "sinatra", "~> 2.2"
 
-gem "webrick", # "~> 1.7"
+gem "webrick" # "~> 1.7"
 
 gem "sinatra-contrib", "~> 2.2"
