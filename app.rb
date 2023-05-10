@@ -16,7 +16,7 @@ class Application < Sinatra::Base
 
   def reset_web_table
     seed_sql = File.read('spec/seeds/music_library.sql')
-    connection = PG.connect({ host: '127.0.0.1', dbname: 'music_library-web' })
+    connection = PG.connect
     connection.exec(seed_sql)
   end
 
