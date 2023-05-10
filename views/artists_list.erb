@@ -1,0 +1,15 @@
+<html>
+  <head></head>
+  <body style="background-image:url('https://wallpapercave.com/wp/wp5576848.jpg');">
+    <h1>Artists</h1>
+     <div>
+      <% @artists.each do |artist| %>
+      <p>
+        No. <%= artist.id %> <br>
+        Name: <%= artist.name %> <br>
+        <button onclick="window.location.href='/artists/<%= artist.id %>';">More info</button>
+      </p>
+      <% end %>
+    </div>
+  </body>
+</html>
